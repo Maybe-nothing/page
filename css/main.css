@@ -889,7 +889,7 @@ body {
   height: 80%;
   text-align: center;
   margin-top: 0.781rem;
-  background: center/contain no-repeat url("../img/ymcc.png");
+  background: center/contain no-repeat url("../img/ymcc_header.png");
   background-size: contain;
 }
 
@@ -1645,7 +1645,7 @@ button.close {
   float: left;
   width: 3000px;
   height: 1000px;
-  padding: 3em 0;
+  padding: 0;
   line-height: 1.4;
   opacity: 0;
 }
@@ -1672,7 +1672,7 @@ button.close {
 .profile__introduction > span {
   display: block;
   font-weight: 600;
-  font-size: 20px;  /*느린것 어쩌구*/
+  font-size: 25px;  /*느린것 어쩌구*/
 }
 
 @media screen and (max-width: 757px) {

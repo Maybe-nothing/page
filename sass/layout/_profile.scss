@@ -100,7 +100,7 @@
   float: left;
   width: 3000px;
   height: 1000px;
-  padding: 3em 0;
+  padding: 0;
   line-height: 1.4;
   opacity: 0;
   @include tablet {
@@ -132,7 +132,7 @@
 .profile__info {
   float: right;
   width: 200px;
-  height: 300px;
+  height: 300px;sns__container
   margin-top: 23px;
   padding-top: 3em;
   margin-right: 30px;
