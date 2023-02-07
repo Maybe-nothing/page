@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="js/script.js" defer></script>
+    <title>YMCC</title>
+  </head>
+  <body>
+    <!-- #site-nav -->
+    <nav id="nav" class="nav__defalut">
+      <div class="container">
+        <div class="nav__logo">
+          <a href="#header" class="logo_link">
+            <!-- <img src="./img/logo.png" alt="로고이미지" class="logo_img"> -->
+          </a>
+        </div>
+        <input type="checkbox" class="nav__checkbox" id="mobile_nav--toggle" />
+        <label for="mobile_nav--toggle" class="nav__toggle-btn">
+          <span class="material-icons-outlined menu_icon"> menu </span>
+          <span class="material-icons-outlined close_icon"> close </span>
+        </label>
+        <ul class="nav__menu">
+          <li><a href="#header" class="current-menu">Home</a></li>
+          <li><a href="#Introduction">Introduction</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="marker"></div>
+        </ul>
+      </div>
+      <!-- container -->
+    </nav>
+
+    <!-- wrap-1200 -->
+    <div class="wrap-1200">
+      <!-- #header -->
+      <header id="header" class="section-flag">
+        <div class="container">
+          <figure class="title_photo scale-in-center">
+            <img
+              class="slide-up-down"
+              src="./img/title_img.png"
+              alt="타이틀_이미지"
+            />
+          </figure>
+          <div class="header__column_left slide-right">
+            <hgroup class="home-title">
+              <h2 class="main-title title__first">We are</h2>
+              <h2 class="main-title title__second">Makers.</h2>
+              <h1 class="sub-title">용문고 컴퓨터부, YMCC입니다.</h1>
+            </hgroup>
+            <button
+              class="btn_go-to-work btn_hover"
+              onclick="location.href='index.html#work'"
+            >
+              <span>Watch more</span>
+            </button>
+          </div>
+        </div>
+        <!-- container -->
+      </header>
+    </div>
+    <!-- main -->
+    <main id="main">
+      <div class="wrap-1200">
+        <!-- profile -->
+        <section class="category-section section-flag" id="Introduction">
+          <h2 class="category-title">Introduction</h2>
+          <div class="box-component box_profile">
+            <div class="box_profile__row">
+              <figure class="profile__photo">
+                <img src="img/ymcclogo.png" alt="프로필_이미지" />
+              </figure>
+              <div class="profile__headline">
+                <span class="greeting">
+                  용문고 컴퓨터부<br />
+                  YMCC입니다.
+                </span>
+              </div>
+            </div>
+            <div class="box_profile__row">
+              <div class="profile__introduction">
+                <span> '알잘딱깔센 해먹으세여' </span>
+                용문고등학교 컴터부입니다. <br />
+                선배가 10명이나 있지만 <br />
+                뭘 해야 하는지 알려주는 새끼는 <br />
+                단 하나도 없습니다. <br />
+                스스로 뭘 할지 정하고 <br />
+                알잘딱깔센 해서 학기 말까지 <br />
+                프로젝트 하나씩 뽑아오십쇼. <br />
+                수고링.<br />
+                <br />
+                <br />
+                <br />
+                <span>대충 그럴싸한 수상 기록</span><br />
+                최우수상 하나<br />
+                최우수상 둘<br />
+                최우수상 셋<br />
+                최우수상 넷<br />
+                최우수상 다섯<br />
+              </div>
+              <!--<div class="profile__info">    얘네들 싹 지워도 상관 없음
+                <p>
+                  <span>나이</span>
+                  97. 06. 22
+                </p>
+                <p>
+                  <span>E-mail</span>
+                  hothemp35&#64;gmail.com
+                </p>
+              </div>
+              <div class="profile__skill">
+                <h3>Skills</h3>
+                <ul class="profile__skill-icon">
+                  <li>
+                    <img src="./img/skill_icon_01.png" alt="HTML_아이콘" />
+                  </li>
+                  <li>
+                    <img src="./img/skill_icon_02.png" alt="CSS_아이콘" />
+                  </li>
+                  <li>
+                    <img
+                      src="./img/skill_icon_03.png"
+                      alt="자바스크립트_아이콘"
+                    />
+                  </li>
+                  <li>
+                    <img src="./img/skill_icon_04.png" alt="제이쿼리_아이콘" />
+                  </li>
+                  <li>
+                    <img src="./img/skill_icon_09.png" alt="scss_아이콘" />
+                  </li>
+                  <li>
+                    <img src="./img/skill_icon_10.png" alt="react_아이콘" />
+                  </li>
+                  <li>
+                    <img src="./img/skill_icon_11.png" alt="타입스크립트_아이콘" />
+                  </li>
+                </ul>
+                <h3>Graphics</h3>
+                <ul class="profile__skill-icon">
+                  <li>
+                    <img src="./img/skill_icon_05.png" alt="포토샵_아이콘" />
+                  </li>
+                  <li>
+                    <img src="./img/skill_icon_06.png" alt="일러스트레이터_아이콘" />
+                  </li>
+                  <li>
+                    <img src="./img/skill_icon_07.png" alt="마야_아이콘" />
+                  </li>
+                  <li>
+                    <img src="./img/skill_icon_08.png" alt="블렌더_아이콘" />
+                  </li>
+                </ul>
+              </div>
+            </div>-->
+          </div>
+        </section>
+
+        <!-- work -->
+        <section class="category-section section-flag" id="work">
+          <h2 class="category-title">Works</h2>
+          <div class="box-component box_work">
+            <figure class="box_work__row">
+              <a
+                class="work__thumbnail"
+                href="https://google.com"
+              >
+                <div class="work__img_caption">
+                  <span class="caption">
+                    구글로 가버렷!
+                    <span class="material-icons"> open_in_new </span>
+                  </span>
+                </div>
+                <img
+                  class="work__thumbnail_img"
+                  src="./img/bocchi.gif"
+                  alt="프로젝트 이미지"
+                />
+              </a>
+            </figure>
+            <div class="box_work__row">
+              <div class="work__info">
+                <div class="work__introduction">
+                  <h3>난 모르겠다 ㅋㅋ</h3>
+                  <ul>
+                    <li>몰?루 ㅋㅋ</li>
+                    <li>
+                      몰?루 ㅋㅋ
+                    </li>
+                    <li>구글로 가버렷! &#37;<!--요 옆에꺼 기호 같은거 불러오는거 같은데 신기하당 ㅋㅋ--></li>
+                  </ul>
+                </div>
+                <button
+                  class="btn_hover work__btn-view"
+                  onclick="window.open('https://google.com')"
+                >
+                  VIEW
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- gallery -->
+        <section class="category-section section-flag" id="gallery">
+          <h2 class="category-title">Gallery</h2>
+          <div class="box_gallery">
+            <ul class="box_gallery_row">
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>            
+            </ul>
+            <!-- box_gallery_row -->
+          </div>
+          <!-- box_gallery -->
+        </section>
+      </div>
+      <!-- wrap 1200 -->
+
+      <!-- contact -->
+      <div class="wrap__contact">
+        <!-- contact -->
+        <section class="category-section section-flag" id="contact">
+          <div class="box-component box_contact">
+            <figure class="choco-img">
+              <img src="./img/choco_banana.png" alt="음료수_이미지" />
+            </figure>
+            <h2 class="category-title">Contact Me</h2>
+            <address class="contact__address">
+              <a target="_blank" href="QR코드 박아처넣는거 처 까먹지 말고 넣어라">
+                <img
+                 class="icon__QR"
+                  src="./img/QRcode.png"
+                 alt="QRcode"
+                />
+              </a>
+              <span class="email">클릭시 신청서 양식으로 이동합니다.</span>
+              <ul class="sns__container">
+                <li class="sns__column">
+                  <span class="address__subtitle">GitHub</span>
+                  <a target="_blank" href="https://google.com">
+                    <img src="./img/icon_github.png" alt="깃허브_아이콘" />
+                  </a>
+                </li>
+                <li class="sns__column">
+                  <span class="address__subtitle">Youtube</span>
+                  <a
+                    target="_blank"
+                    href="https://google.com"
+                  >
+                    <img src="./img/icon_youtube.png" alt="유튜브_아이콘" />
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <!-- box_contact -->
+        </section>
+      </div>
+      <!-- wrap-contact -->
+    </main>
+
+    <footer id="footer">
+      <img src="./img/ymcc.png" alt="로고_이미지" />
+      <p>
+        본 페이지는 웹 개발자 이소연 님의 포트폴리오 페이지를 참고하였음을 밝힙니다.<br />
+        &#169; 2023 YMCC. All Rights Reserved.
+      </p>
+    </footer>
+
+    <!-- 갤러리 오버레이 -->
+    <div id="overlay">
+      <button class="close">
+        <span class="material-icons md-48"> cancel </span>
+      </button>
+      <button id="prev_btn" class="btn">
+        <span class="material-icons md-48"> arrow_back_ios </span>
+      </button>
+      <button id="next_btn" class="btn">
+        <span class="material-icons md-48"> arrow_forward_ios </span>
+      </button>
+      <div class="container">
+        <ul id="slide">
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  </body>
+</html>
