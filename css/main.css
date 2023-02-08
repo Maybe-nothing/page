@@ -1183,8 +1183,8 @@ body {
 .icon__QR {
   display: block;
   margin: 0 auto;
-  width: 12.81rem;  /*QR코드 크기 변경*/
-  height: 12.18rem;
+  width: 15rem;  /*QR코드 크기 변경*/
+  height: 15rem;
 }
 
 .email {
@@ -1672,7 +1672,7 @@ button.close {
 .profile__introduction > span {
   display: block;
   font-weight: 600;
-  font-size: 25px;  /*느린것 어쩌구*/
+  font-size: 30px;
 }
 
 @media screen and (max-width: 757px) {
