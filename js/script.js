@@ -227,11 +227,11 @@ VanillaTilt.init(document.querySelectorAll(".gallery__thumbnail")), {
 };
 
 //이동
-const workThumbs = document.querySelectorAll(".work__thumbnail");
+/*const workThumbs = document.querySelectorAll(".work__thumbnail");
 workThumbs.forEach(thumb => {
     thumb.addEventListener("click", function(e){
         e.preventDefault();
         window.open(this.href);
         
     })
-})
+})*/
