@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="js/script.js" defer></script>
+    <title>YMCC</title>
+  </head>
+  <body>
+    <!-- #site-nav -->
+    <nav id="nav" class="nav__defalut">
+      <div class="container">
+        <div class="nav__logo">
+          <a href="#header" class="logo_link">
+            <!-- <img src="./img/logo.png" alt="로고이미지" class="logo_img"> -->
+          </a>
+        </div>
+        <input type="checkbox" class="nav__checkbox" id="mobile_nav--toggle" />
+        <label for="mobile_nav--toggle" class="nav__toggle-btn">
+          <span class="material-icons-outlined menu_icon"> menu </span>
+          <span class="material-icons-outlined close_icon"> close </span>
+        </label>
+        <ul class="nav__menu">
+          <li><a href="#header" class="current-menu">Home</a></li>
+          <li><a href="#Introduction">Introduction</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Apply</a></li>
+          <div class="marker"></div>
+        </ul>
+      </div>
+      <!-- container -->
+    </nav>
+
+    <!-- wrap-1200 -->
+    <div class="wrap-1200">
+      <!-- #header -->
+      <header id="header" class="section-flag">
+        <div class="container">
+          <figure class="title_photo scale-in-center">
+            <img
+              class="slide-up-down"
+              src="./img/title_img.png"
+              alt="타이틀_이미지"
+            />
+          </figure>
+          <div class="header__column_left slide-right">
+            <hgroup class="home-title">
+              <h2 class="main-title title__first">We are</h2>
+              <h2 class="main-title title__second">Makers.</h2>
+              <h1 class="sub-title">용문고 컴퓨터부, YMCC입니다.</h1>
+            </hgroup>
+            <button
+              class="btn_go-to-work btn_hover"
+              onclick="location.href='index.html#work'"
+            >
+              <span>Watch more</span>
+            </button>
+          </div>
+        </div>
+        <!-- container -->
+      </header>
+    </div>
+    <!-- main -->
+    <main id="main">
+      <div class="wrap-1200">
+        <!-- profile -->
+        <section class="category-section section-flag" id="Introduction">
+          <h2 class="category-title">Introduction</h2>
+          <div class="box-component box_profile">
+            <div class="box_profile__row">
+              <figure class="profile__photo">
+                <img src="img/ymcclogo.png" alt="프로필_이미지" />
+              </figure>
+              <div class="profile__headline">
+                <span class="greeting">
+                  용문고 컴퓨터부<br />
+                  YMCC 입니다.
+                </span>
+              </div>
+            </div>
+            <div class="box_profile__row">
+              <div class="profile__introduction">
+                <span> '세계와 발 맞춰 나아가는 창의적 인재 양성' </span>
+                <br />
+                용문고등학교 컴퓨터부, 약칭 ymcc는 용문고등학교 설립 이래 42년간 함께 해온 <br />
+                유서깊은 동아리입니다. ymcc에서는 프로그래밍을 배우며 실력을 키우고 컴퓨팅 <br />
+                활동을 기반으로 자신의 능력을 펼칠 수 있는 다양한 프로젝트 활동을 진행합니다. <br />
+                여러 분야에서 활동하시는 선배들과도 자주 교류하며 자신의 진로를 더 깊게 탐색하고<br />
+                새로운 적성을 찾아갈 수 있습니다.<br />
+                <br />
+                <br />
+                <span>YMCC의 발자취</span><br />
+                2022<br />
+                &nbsp;- 신세계 아이앤씨 HELLO_NEW( )_WORLD 최우수상<br />
+                &nbsp;- 연세대학교 YOUTH_MAKER 최우수상<br />
+                &nbsp;- 서울 융합과학 메이커 축제 부스 운영<br />
+                2021<br />
+                &nbsp;- 신세계 아이앤씨 HELLO_NEW( )_WORLD 최우수상<br />
+                &nbsp;- 전국 고등학교 동아리 소프트웨어 경진대회 금상<br />
+                2019<br />
+                &nbsp;- 신세계 아이앤씨 HELLO_NEW( )_WORLD 우수상<br />
+              </div>
+          </div>
+        </section>
+
+        <!-- work -->
+        <section class="category-section section-flag" id="work">
+          <h2 class="category-title">Projects</h2>
+          <div class="box-component box_work">
+            <figure class="box_work__row">
+              <a
+                class="work__thumbnail"
+                href="https://google.com"
+              >
+                <div class="work__img_caption">
+                  <span class="caption">
+                    더 보기
+                    <span class="material-icons"> open_in_new </span>
+                  </span>
+                </div>
+                <img
+                  class="work__thumbnail_img"
+                  src="./img/bocchi.gif"
+                  alt="프로젝트 이미지"
+                />
+              </a>
+            </figure>
+            <div class="box_work__row">
+              <div class="work__info">
+                <div class="work__introduction">
+                  <h3>프로젝?트</h3>
+                  <ul>
+                    <li>몰?루 ㅋㅋ</li>
+                    <li>
+                      몰?루 ㅋㅋ
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  class="btn_hover work__btn-view"
+                  onclick="window.open('https://google.com')"
+                >
+                  VIEW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box-component box_work">
+            <figure class="box_work__row">
+              <a
+                class="work__thumbnail"
+                href="https://google.com"
+              >
+                <div class="work__img_caption">
+                  <span class="caption">
+                    더 보기
+                    <span class="material-icons"> open_in_new </span>
+                  </span>
+                </div>
+                <img
+                  class="work__thumbnail_img"
+                  src="./img/bocchi.gif"
+                  alt="프로젝트 이미지"
+                />
+              </a>
+            </figure>
+            <div class="box_work__row">
+              <div class="work__info">
+                <div class="work__introduction">
+                  <h3>프로젝?트</h3>
+                  <ul>
+                    <li>몰?루 ㅋㅋ</li>
+                    <li>
+                      몰?루 ㅋㅋ
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- gallery -->
+        <section class="category-section section-flag" id="gallery">
+          <h2 class="category-title">Gallery</h2>
+          <div class="box_gallery">
+            <ul class="box_gallery_row">
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>
+              <li class="gallery__thumbnail">
+                <div class="gallery__thumbnail_content">
+                  <h3>Donut</h3>
+                  <ul>
+                    <li>도나츠</li>
+                    <li>개맛잇겟당</li>
+                  </ul>
+                </div>
+                <!-- gallery__thumbnail_content -->
+                <a target="_blank" href="./img/gallery_03.png">
+                  <img src="./img/gallery_thumb_03.png" alt="갤러리_썸네일" />
+                </a>
+              </li>            
+            </ul>
+            <!-- box_gallery_row -->
+          </div>
+          <!-- box_gallery -->
+        </section>
+      </div>
+      <!-- wrap 1200 -->
+
+      <!-- contact -->
+      <div class="wrap__contact">
+        <!-- contact -->
+        <section class="category-section section-flag" id="contact">
+          <div class="box-component box_contact">
+            <figure class="choco-img">
+              <img src="./img/choco_banana.png" alt="음료수_이미지" />
+            </figure>
+            <h2 class="category-title">Apply</h2>
+            <address class="contact__address">
+              <a target="_blank" href="https://forms.gle/iaSZyzPAyL1vf2hn6">
+                <img
+                 class="icon__QR"
+                  src="./img/QRcode.png"
+                 alt="QRcode"
+                />
+              </a>
+              <span class="email">클릭시 신청서 양식으로 이동합니다.</span>
+              <ul class="sns__container">
+                <li class="sns__column">
+                  <span class="address__subtitle">Kakao</span>
+                  <a
+                    target="_blank"
+                    href="https://open.kakao.com/o/sAkiXf3e"
+                  >
+                    <img src="./img/icon_kakaotalk.png" alt="카카오톡_아이콘" />
+                  </a>
+                </li>
+                <li class="sns__column">
+                  <span class="address__subtitle">Youtube</span>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/@ymcc9247"
+                  >
+                    <img src="./img/icon_youtube.png" alt="유튜브_아이콘" />
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <!-- box_contact -->
+        </section>
+      </div>
+      <!-- wrap-contact -->
+    </main>
+
+    <footer id="footer">
+      <img src="./img/ymcc.png" alt="로고_이미지" />
+      <p>
+        본 페이지는 웹 개발자 이소연 님의 포트폴리오 페이지를 참고하였음을 밝힙니다.<br />
+        &#169; 2023 YMCC. All Rights Reserved.
+      </p>
+    </footer>
+
+    <!-- Gallery overlay -->
+    <div id="overlay">
+      <button class="close">
+        <span class="material-icons md-48"> cancel </span>
+      </button>
+      <button id="prev_btn" class="btn">
+        <span class="material-icons md-48"> arrow_back_ios </span>
+      </button>
+      <button id="next_btn" class="btn">
+        <span class="material-icons md-48"> arrow_forward_ios </span>
+      </button>
+      <div class="container">
+        <ul id="slide">
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+          <li>
+            <img class="gallery__big_photo" src="" alt="갤러리_사진_원본" />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  </body>
+</html>
